@@ -1,7 +1,6 @@
-s = "Hello"
-
-for ch in s:
-    if ch.lower() in "aeiou":
-        print(ch, "is a vowel")
+s =input("Enter a String:")
+for i in s:
+    if i.lower() in "aeiou":
+        print(i, "is a vowel")
     else:
-        print(ch, "is not a vowel")
+        print(i, "is not a vowel")
