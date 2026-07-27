@@ -1,6 +1,6 @@
-a=[1,2,3,4,5,6,7,8,9,10,89]
+a=int(input("enter value:"))
 sum=0
-for i in a:
+for i in range(0,a):
     sum=sum+i
-    avg=sum/len(a)
+avg=sum/a
 print("Average of list is",avg)
